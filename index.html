@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<head>
+    <title>Ujian_PWEB_Matahari Adam Putra Nugraha_50421788</title>
+    <link type="text/css" rel="stylesheet" href="style.css"
+</head>
+<h1>AdaMotoshop</h1>
+
+<body>
+    <table>
+        <tr>
+            <td>
+                <form autocomplete="off" onsubmit="onFormSubmit()">
+                    <div>
+                        <label for="Brand">Brand</label>
+                        <input type="text" name="productCode" id="productCode">
+                    </div>
+                    <div>
+                        <label for="Model">Model</label>
+                        <input type="text" name="product" id="product">
+                    </div>
+                    <div>
+                        <label for="Unit">Unit</label>
+                        <input type="number" name="qty" id="qty">
+                    </div>
+                    <div>
+                        <label for="perPrice">Price</label>
+                        <input type="number" name="perPrice" id="perPrice">
+                    </div>
+
+                    <div class="form_action--button">
+                        <input type="submit" value="Submit">
+                        <input type="reset" value="Reset">
+                    </div>
+                </form>
+
+                <td>
+                    <table class="list" id="storeList">
+                        <thead>
+                            <tr>
+                                <th>Brand</th>
+                                <th>Model</th>
+                                <th>Unit</th>
+                                <th>Price</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+
+                        </tbody>
+                    </table>
+                </td>
+            </td>
+        </tr>
+    </table>
+    <script type="text/javascript" src="./script.js"></script>
+</body>
+</html>
