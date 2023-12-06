@@ -1,4 +1,4 @@
-# Aplikasi Pembelian Tiket Cinema
+# Aplikasi Penjualan motor
 
 # Support
 <img src="https://images.pexels.com/photos/3817843/pexels-photo-3817843.jpeg?auto=compress&cs=tinysrgb&w=600">
